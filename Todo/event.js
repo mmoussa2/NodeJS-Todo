@@ -6,3 +6,4 @@ myEmitter.on('someEvent', function(msg){
 
 myEmitter.emit('someEvent', 'event fired');
 
+

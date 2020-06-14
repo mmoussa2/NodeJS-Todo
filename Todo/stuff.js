@@ -16,10 +16,10 @@ var counter  = function(arr){
 
  
 
-//module.exports = { counter, adder} ; 
-//or:
-// module.exports.counter = counter;
-//module.exports.add = adder;
+// module.exports = { counter, adder} ; 
+// or:
+module.exports.counter = counter;
+module.exports.add = adder;
 
 module.exports ={
   counter,

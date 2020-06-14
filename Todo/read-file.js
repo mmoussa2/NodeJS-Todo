@@ -1,4 +1,4 @@
-var fs = require('fs');
+//var fs = require('fs');
 
 //sync:
 //var readMe = fs.readFileSync('file.txt', 'utf8' ); // block the code until it execute
@@ -39,14 +39,17 @@ var fs = require('fs');
 // })
 
 //delete file first before deleting directory
-fs.unlink('./test/newFile.txt', err=>{
-  if (err) console.log(err);
-  else{
-    fs.rmdir('test', err => {
-      if (err) console.log(err);
-      else console.log('removed succ');
-    })
-  } 
-})
+// fs.unlink('./test/newFile.txt', err=>{
+//   if (err) console.log(err);
+//   else{
+//     fs.rmdir('test', err => {
+//       if (err) console.log(err);
+//       else console.log('removed succ');
+//     })
+//   } 
+// })
+
+
+
 
 

@@ -68,9 +68,7 @@ class Counter {
   }
 
   start(){
-      this.btn.addEventListener('click', () => {
-        this.countIt();
-    });
+      this.btn.addEventListener('click', () => this.countIt());
   }
 
   countIt(){
